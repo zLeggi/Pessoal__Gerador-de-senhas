@@ -1,0 +1,175 @@
+/* ----------GERAL---------- */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Heebo", sans-serif;
+  color: #cccccc;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input:focus {
+  outline: none;
+}
+
+#container-registro {
+  display: flex;
+  justify-content: center;
+  box-shadow: #32325d 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  width: 100vw;
+  border-radius: 10px;
+}
+
+#banner {
+  background-image: url(../img/tianshu-liu-SBK40fdKbAg-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 75%;
+  height: 100vh;
+}
+
+#camada-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(153 230 255 / 30%);
+  padding: 20px;
+  height: 100%;
+}
+
+#camada-banner h1 {
+  font-size: 4rem;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  white-space: nowrap;
+
+  color: #ffffff;
+}
+
+#camada-banner h1 span {
+  display: block;
+  color: #ffffff;
+}
+
+#formulario {
+  justify-content: center;
+  max-height: 100%;
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+
+  padding: 20px;
+  border-radius: 0 10px 10px 0;
+}
+
+#formulario form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+#formulario h2 {
+  font-size: 52px;
+  color: #0c0c0c;
+  text-align: center;
+}
+
+#formulario p {
+  color: #ccc;
+  text-align: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+form label {
+  font-size: 22px;
+  color: #0c0c0c;
+}
+
+form input {
+  background-color: #fafafa;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  color: #0c0c0c;
+  padding: 5px;
+  font-size: 18px;
+  margin: 3px 0 20px 0;
+}
+
+#formulario form #gerar-senha {
+  transition: 0.2s;
+  text-decoration: underline;
+}
+
+form p {
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+#formulario form #gerar-senha:hover {
+  color: cornflowerblue;
+}
+
+#formulario form p {
+  color: #0c0c0c;
+  align-items: flex-start;
+  text-align: start;
+}
+
+#formulario form p span {
+  cursor: pointer;
+  color: #0c0c0c;
+}
+
+#senha-gerada {
+  color: #0c0c0c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  padding: 10px 20px;
+  border: 1px solid #0c0c0c;
+  border-radius: 10px;
+  margin: 20px auto 40px auto;
+  display: none;
+}
+
+#senha-gerada p {
+  margin-bottom: 20px;
+}
+
+#senha-gerada h4 {
+  color: #2f8b20;
+}
+
+#enviar {
+  border: none;
+  color: #fafafa;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: #2f8b20;
+  border-radius: 10px;
+  padding: 10px 20px;
+
+  max-width: 200px;
+  cursor: pointer;
+  align-self: center;
+  transition: 0.3s;
+}
+
+#enviar:hover {
+  background-color: #3cbc27;
+}
