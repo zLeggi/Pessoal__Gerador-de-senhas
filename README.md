@@ -14,7 +14,11 @@
 
 * Flex-box
 
+<<<<<<< HEAD
 ### Link para o projeto: https://pessoal-gerador-de-senhas-kr4rqgova-zleggi.vercel.app/
+=======
+### Link para o projeto: pessoal-gerador-de-senhas.vercel.app
+>>>>>>> d5a5478c4f33b5873b36025d9973d654833ed1dd
 
 ## Feito por:
 ### Leandro Almeida ( zLeggi)
