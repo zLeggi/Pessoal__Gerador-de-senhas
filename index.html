@@ -30,13 +30,13 @@
         <form action="">
           
           <label for="nome">Nome</label>
-          <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+          <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
 
           <label for="email">Email</label>
-          <input type="email" name="email" id="email" placeholder="Digite seu email">
+          <input type="email" name="email" id="email" placeholder="Digite seu email" required>
 
           <label for="senha">Senha</label>
-          <input type="password" name="senha" id="senha" placeholder="Digite sua senha">
+          <input type="password" name="senha" id="senha" placeholder="Digite sua senha" required>
           <p> Quer uma senha segura? <span id="gerar-senha" onclick="adcionarSenha()">clique aqui</span>.</p>
           <div id="senha-gerada">
             <p>Aqui esta sua senha gerada:</p>
@@ -44,7 +44,7 @@
           </div>
 
           <label for="confirmar-senha">Confirmar senha</label>
-          <input type="password" name="confirmar-senha" id="confirmar-senha" placeholder="confirme sua senha">
+          <input type="password" name="confirmar-senha" id="confirmar-senha" placeholder="confirme sua senha" required>
 
           <input type="submit" value="Cadastre-se" id="enviar" >
         </form>
