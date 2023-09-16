@@ -20,6 +20,6 @@ function adcionarSenha(){
 
 function toggle() {
   var senhaGerada = document.getElementById('senha-gerada');
-  senhaGerada.style.display = senhaGerada.style.display === 'none' ? 'flex' : 'none';
+  senhaGerada.style.display = senhaGerada.style.display === 'flex' ? 'none' : 'flex';
 }
 
