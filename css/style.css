@@ -23,6 +23,7 @@ input:focus {
   justify-content: center;
   box-shadow: #32325d 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   width: 100vw;
+  height: 100vh;
   border-radius: 10px;
 }
 
@@ -67,7 +68,6 @@ input:focus {
   width: 40%;
 
   padding: 20px;
-  border-radius: 0 10px 10px 0;
 }
 
 #formulario form {
